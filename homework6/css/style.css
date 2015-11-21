@@ -109,6 +109,7 @@ h3{
 .content{
 	width: 778px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .wrapper-sidebar{
 	overflow: hidden;
@@ -187,4 +188,26 @@ dd:nth-child(2n+1) {
 dd:nth-child(2n+10) {
    	background-color: #dfe5e6;
 	border-bottom: none;
+}
+
+/*-------------FOOTER---------*/
+
+
+.wrapper-footer{
+	overflow: hidden;
+	width: 1200px;
+	vertical-align: bottom;
+	
+}
+.footer{
+	width: 504px;
+	margin-left: 450px;
+	padding-left: 20px;
+	border-radius: 0 0 10px 10px;
+	background: #D9DADA;
+	line-height: 1.5;
+}
+.footer-logo{
+	float: right;
+	padding-right: 20px;
 }
