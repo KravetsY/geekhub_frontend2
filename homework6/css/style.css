@@ -1,0 +1,157 @@
+body{
+	background: #C8C8C8;
+}
+.wrapper{
+	background: url('../img/bacground.png');
+	width: 1200px;
+	overflow: hidden;
+    margin: 0 auto;
+	margin-top: 15px;
+	
+}
+.block{
+	display: block;
+}
+
+/*--------header-----*/
+
+.wrapper-head{
+	width: 778px;
+	height: 148px;
+	margin: 0 auto;
+	border-bottom: 1px solid #939598;
+}
+.logo{
+	float: left;
+	padding-top: 42px;
+}
+.text-logo{
+	float: left;
+	padding-top: 62px;
+
+}
+
+.radius {
+    background: #f0f0f0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+
+.registr{
+	background: url(../img/regist-oval.fw.png);
+	width: 158px;
+	height: 24px;
+	text-align: right;
+	float: right;
+	
+}
+.butom_registr{
+	padding-right: 10px;
+	}
+.epit{
+	text-align: right;
+	padding-top: 67px;
+	padding-right: 57px;
+}
+.navi{
+	font-size: 16px;
+	margin-right: 26px;
+	margin-top: 20px;
+	float: right;
+	width: 400px;
+	
+
+}
+.navi ul li {
+	float: right;
+}
+
+.navi ul li:first-child {
+	border-radius: 0 20px 0 0;
+	border-right: 1px solid #939598;
+}
+
+.navi ul li a {
+	text-decoration: none;
+	color: #646464;
+}
+.navi ul li {
+	border-top: 1px solid #939598;
+	border-left: 1px solid #939598;
+	padding: 14px 0;
+	width: 30%;
+	text-align: center;
+	background:  grey;
+}
+
+	.navi ul li:last-child {
+	border-radius: 20px 0 0 0;
+}
+
+/*----------------------sidebar-----------*/
+.content{
+	width: 778px;
+	margin: 0 auto;
+}
+.wrapper-sidebar{
+	overflow: hidden;
+    	float: left;
+}
+
+.ctegories{
+	
+}
+.categories ul li{
+	border-bottom: 2px solid #939598;
+	 line-height: 2;
+	 margin-left: 10px;
+
+}
+
+.categories ul li a {
+	text-decoration: none;
+	color: #646464;
+	margin-left: 10px;
+}
+
+.rss{
+	margin-top: 20px;
+	border-top: 2px solid #939598;
+	border-bottom: 2px solid #939598;
+}
+
+/*---------------------CONTENT--------------*/
+
+.news{
+	border-top: 1px solid #939598;
+	margin-left: 150px;
+}
+dt{
+	float: left;
+	padding-left: 20px;
+	
+}
+
+dd{
+	padding-left: 250px;
+	background-color: #dfe5e6;
+	border-bottom: 3px solid white;
+
+}
+.image-news{
+	float: left;
+	height: 100%;
+	margin: 0 20px 0 12px;
+	overflow: hidden;
+}
+
+
+dd:nth-child(2n+1) {
+   	background: white;
+	border-bottom: none;
+}
+dd:nth-child(2n+10) {
+   	background-color: #dfe5e6;
+	border-bottom: none;
+}
