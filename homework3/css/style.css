@@ -1,0 +1,41 @@
+
+thead{
+	font: bold 1em Arial;
+	
+}
+
+td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+tr{
+	border: 1px solid black;
+}
+th{
+	border: 1px solid black;
+}
+
+.first_table{
+	border-collapse: separate;
+	width:100%;
+	padding: 1px;	
+	border-spacing: 2px 2px;
+	
+}
+table{
+	padding: 1px;
+	border-collapse:separate;
+	border-spacing: 2px 2px;
+	border: 1px solid black;
+}
+.pad{
+	margin-top: 1%;
+}
+.third_table{
+	border-spacing: 0px 0px;
+	
+}
+.mini_table{
+	width:60%;
+}

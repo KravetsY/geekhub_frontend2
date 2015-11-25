@@ -1,0 +1,15 @@
+.img{
+	width:256px;
+	height: 144px;
+	float: left; 
+	margin: 7px 7px 7px 0;
+}
+.wrapper{
+	padding: 3% 20% 20% 3%;
+}
+h1{
+	font: bold 2em Arial;
+}
+b{
+	font-weight: bold;
+}
