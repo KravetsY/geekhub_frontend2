@@ -12,6 +12,27 @@
 	margin:0px auto;   
 	z-index:0;
 	}
+.button{
+	width: 179px;
+	height: 54px;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	margin:0px auto; 
+}
+.button a{
+	padding-top: 21px;
+	padding-left: 55px;
+	text-decoration: none;
+	width: 71px;
+	height: 11px;
+	color: #4e5159;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+/*------------------------HEADER---------------------------*/
 div.logo h1{
 	width: 157px;
 height: 28px;
@@ -57,7 +78,7 @@ color: #31353e;
 nav ul li.active{
 	border-radius: 20px 20px 20px 20px;
 	border-right: 1px solid #939598;
-	background:#dd4b2b;
+	background: #dd4b2b;
 }
 /*--------------------------SECTION 1-----------*/
 .first-section{
@@ -126,10 +147,89 @@ padding-left: 450px;
 	width: 303px;
 	height: 305px;
 	overflow: hidden;
-	
 }
-/*--------------------------SECTION 2-----------*/
 
+/*--------------------------SECTION 2-----------*/
+.second-section{
+	background:#edeff1
+	}
+.news-second-section{
+	margin: 0 auto;
+	width: 1169px;
+	height: 601px;
+	padding-top: 84px;
+ }
+ 
+section.second-section div.header{
+	width: 133px;
+	height: 23px;
+	color: #31353e;
+	font-family: RobotoSlab;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-top: 85px;
+	margin: 0 auto;
+
+}
+.news-second-section1{
+	float: left;
+	width: 371px;
+	height: 494px;
+	overflow: hidden;
+}
+.news-second-section2{
+	float: left;
+	width: 371px;
+	height: 494px;
+	overflow: hidden;
+	padding-left: 29px;
+}
+.news-second-section3{
+	overflow: hidden;
+	width: 371px;
+	height: 494px;
+	padding-left: 27px;
+}
+.text-news{
+	width: 288px;
+	height: 108px;
+	color: #31353e;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 39px;
+	margin: 0 auto;
+}
+.text-news h2{
+	font-family: RobotoSlab;
+	font-size: 24px;
+	font-weight: 700;
+}
+.text-news span{
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+}
+.second-section div .button{
+	width: 179px;
+	height: 54px;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+}
+
+.second-section div .button a{
+	padding-left: 56px;
+	padding-top: 21px;
+
+	width: 71px;
+	height: 11px;
+	color: #4e5159;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
 /*--------------------------SECTION 3-----------*/
 
 /*--------------------------SECTION 4-----------*/
