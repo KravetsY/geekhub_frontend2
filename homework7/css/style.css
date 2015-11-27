@@ -1,13 +1,18 @@
-header{
+.wrapper header{
 	background: #edeff1;
 	width: 2000px;
 	height: 150px;
+	
+	position: fixed;   
+	z-index: 9999;
 }
-wrapper{
+.wrapper{
 	width: 2000px;
 	height: 4437px;
+	margin:0px auto;   
+	z-index:0;
 	}
-h1{
+div.logo h1{
 	width: 157px;
 height: 28px;
 color: #31353e;
@@ -17,7 +22,7 @@ font-weight: 700;
 line-height: 36px;
 
 }
-h2{
+div.logo h2{
 width: 155px;
 height: 16px;
 color: #dd4b2b;
@@ -54,13 +59,77 @@ nav ul li.active{
 	border-right: 1px solid #939598;
 	background:#dd4b2b;
 }
-
-.second-section{
+/*--------------------------SECTION 1-----------*/
+.first-section{
 /* Style for "photo-14164530" */
 background-image: url('../img/background.png');
+
 width: 2000px;
-height: 4437px;
+height: 1350px;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: 50% 100%; }
+background-position: 50% 100%; 
 }
+
+
+section.first-section div.header{
+width: 866px;
+height: 106px;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+color: white;
+font-family: RobotoSlab;
+line-height: 48px;
+padding-left: 573px;
+padding-top: 486px;
+background: none;
+
+}
+section.first-section h1{
+font-size: 72px;
+font-weight: 300;
+overflow: hidden;
+
+}
+section.first-section h2{
+font-size: 30px;
+font-weight: 700;
+overflow: hidden;
+}
+.news{
+width:1107px;
+height: 333px;
+overflow: hidden;
+color: white;
+
+padding-top: 122px;
+padding-left: 450px;
+}
+.news img{
+	padding-left: 75px;
+	padding-right: 80px;
+}
+.news1{
+	float: left;
+	width: 303px;
+	height: 305px;
+	overflow: hidden;
+}
+.news2{
+	float: left;
+	width: 303px;
+	height: 305px;
+	overflow: hidden;
+	
+}
+.news3{
+	
+	width: 303px;
+	height: 305px;
+	overflow: hidden;
+	
+}
+/*--------------------------SECTION 2-----------*/
+
+/*--------------------------SECTION 3-----------*/
+
+/*--------------------------SECTION 4-----------*/
