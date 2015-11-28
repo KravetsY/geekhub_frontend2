@@ -18,20 +18,9 @@
 	background-color: white;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 27px;
-	margin:0px auto; 
+	margin: 79px auto;
 }
-.button-first-section a{
-	padding-top: 21px;
-	padding-left: 55px;
-	text-decoration: none;
-	width: 71px;
-	height: 11px;
-	color: #4e5159;
-	font-family: Roboto;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 30px;
-}
+
 /*------------------------HEADER---------------------------*/
 div.logo h1{
 	width: 157px;
@@ -42,22 +31,28 @@ div.logo h1{
 	font-weight: 700;
 	line-height: 36px;
 
-}
-div.logo h2{
-width: 155px;
-height: 16px;
-color: #dd4b2b;
-font-family: RobotoSlab;
-font-size: 16px;
-font-weight: 400;
-line-height: 36px;
-}
-.logo{
-padding-top: 49px;
-padding-left: 416px;
-float: left;
 
 }
+div.logo h2{
+	width: 155px;
+	height: 16px;
+	color: #dd4b2b;
+	font-family: RobotoSlab;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.logo{
+	padding-top: 49px;
+	padding-left: 416px;
+	float: left;
+
+}
+nav{
+	padding-left: 381px;
+	overflow: hidden;
+}
+
 nav ul li{
 float: left;
 padding-left: 22px;
@@ -94,36 +89,70 @@ background-position: 50% 100%;
 
 
 section.first-section div.header{
-width: 866px;
-height: 106px;
-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-color: white;
-font-family: RobotoSlab;
-line-height: 48px;
-padding-left: 573px;
-padding-top: 486px;
-background: none;
+	width: 866px;
+	height: 106px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	color: white;
+	font-family: RobotoSlab;
+	line-height: 48px;
+	padding-left: 573px;
+	padding-top: 486px;
+	background: none;
+
 
 }
 section.first-section h1{
-font-size: 72px;
-font-weight: 300;
-overflow: hidden;
-
+	font-size: 72px;
+	font-weight: 300;
+	overflow: hidden;
+	line-height: 48px;
 }
 section.first-section h2{
-font-size: 30px;
-font-weight: 700;
-overflow: hidden;
+	font-size: 30px;
+	font-weight: 700;
+	overflow: hidden;
+	line-height: 48px;
+	padding-left: 180px;
 }
-.news{
-width:1107px;
-height: 333px;
-overflow: hidden;
-color: white;
+section.first-section h3{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 48px;
 
-padding-top: 122px;
-padding-left: 450px;
+}
+section.first-section span{
+	width: 326px;
+	height: 104px;
+	color: white;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+}
+.button-first-section a{
+	padding-top: 21px;
+	padding-left: 55px;
+	text-decoration: none;
+	width: 90px;
+	height: 14px;
+	color: #612316;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	line-height: 50px;
+}
+
+.news{
+	width:1107px;
+	height: 333px;
+	overflow: hidden;
+	color: white;
+
+	margin-top: 122px;
+	padding-left: 450px;
 }
 .news img{
 	padding-left: 75px;
@@ -138,8 +167,9 @@ padding-left: 450px;
 .news2{
 	float: left;
 	width: 303px;
-	height: 305px;
+	height: 333px;
 	overflow: hidden;
+	padding-left: 80px;
 	
 }
 .news3{
@@ -147,6 +177,7 @@ padding-left: 450px;
 	width: 303px;
 	height: 305px;
 	overflow: hidden;
+	padding-left: 75px;
 }
 
 /*--------------------------SECTION 2-----------*/
@@ -175,20 +206,20 @@ section.second-section div.header{
 .news-second-section1{
 	float: left;
 	width: 371px;
-	height: 494px;
+	height: 100%;
 	overflow: hidden;
 }
 .news-second-section2{
 	float: left;
 	width: 371px;
-	height: 494px;
+	height: 100%;
 	overflow: hidden;
 	padding-left: 29px;
 }
 .news-second-section3{
 	overflow: hidden;
 	width: 371px;
-	height: 494px;
+	height: 100%;
 	padding-left: 27px;
 }
 .text-news{
@@ -232,7 +263,7 @@ section.second-section div.header{
 	font-family: Roboto;
 	font-size: 15px;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 51px;
 }
 /*--------------------------SECTION 3-----------*/
 .third-section{
@@ -365,7 +396,7 @@ input{
 	font-family: RobotoSlab;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 48px;
 	
 	overflow: hidden;
 	}
@@ -408,6 +439,7 @@ input{
 	text-align: center;
 	overflow: hidden;
 	margin-top: 48px;
+	
 }
 .button-fourth-section-blue a{
 	text-decoration: none;
@@ -417,7 +449,8 @@ input{
 	font-family: RobotoSlab;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 48px;
+	
 }
 
 /*--------------------------SECTION 5-----------*/
