@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .wrapper header{
 	background: #edeff1;
 	width: 2000px;
