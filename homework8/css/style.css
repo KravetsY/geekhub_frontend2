@@ -3,14 +3,24 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/*h1{
+h1{
 	color: #504f50;
 	font-family: OpenSans;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 45px;
 	text-transform: uppercase;
+	text-align: center;
+	
 	}
+.about{
+	text-align: center;
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
 h2{
 	color: #504f50;
 	font-family: OpenSans;
@@ -18,11 +28,23 @@ h2{
 	font-weight: 700;
 	line-height: 20px;
 	text-transform: uppercase;
-}*/
+}
 section{
 	max-width: 1170px;
 	margin: 0 auto;
 	}
+.buttom{
+	background-color: #39c9da;
+	border-radius: 4px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
 /*---------------TOP SECTION-------*/
 header h1{
 	color: #39c9da;
@@ -88,18 +110,38 @@ nav ul li a{
 	text-decoration: none;
 }
 .download {
-	
-
 	margin-top: 42px;
 	margin-bottom: 100px;
-	
 	}
+/*----------------------SECTION ABOUT US----*/
 
-.download a{
-	background-color: #39c9da;
-	border-radius: 4px;
-	padding: 20px 40px;
-	margin-top: 42px;
-	margin-bottom: 100px;
-	
-	}
+.wrapper-about-us{
+	background-color: #fafafa;
+
+}
+.wrapper-about-us img{
+	float: left;
+	padding-top: 104px;
+}
+.wrapper-about-us div{
+	overflow: hidden;
+	padding-top: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
