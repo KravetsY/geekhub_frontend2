@@ -1,0 +1,105 @@
+.wrapper{
+	background-image: url('../img/top_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*h1{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	text-transform: uppercase;
+	}
+h2{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}*/
+section{
+	max-width: 1170px;
+	margin: 0 auto;
+	}
+/*---------------TOP SECTION-------*/
+header h1{
+	color: #39c9da;
+	font-family: OpenSans;
+	font-size: 30px;
+	font-weight: 700;
+	
+	padding-top: 32px;
+	vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+}
+header span{
+	color: white;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 400;
+	}
+nav{
+	float: right;
+    text-align: left;
+    display: inline-block;
+	padding-top: 54px;
+		}
+nav ul li{
+	float: left;
+
+	
+}
+nav ul li a{
+
+	color: white;
+	font-family: OpenSans;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0px 20px;
+	
+	text-decoration: none;
+	}
+.top-slogan{
+	margin-top: 212px;
+	overflow: hidden;
+	text-align: center;
+	
+}
+.top-slogan span{
+	display: block;
+	overflow: hidden;
+	color: white;
+	font-family: OpenSans;
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 45px;
+}
+.top-slogan a{
+	margin-top: 42px;
+	margin-bottom: 100px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	text-decoration: none;
+}
+.download {
+	
+
+	margin-top: 42px;
+	margin-bottom: 100px;
+	
+	}
+
+.download a{
+	background-color: #39c9da;
+	border-radius: 4px;
+	padding: 20px 40px;
+	margin-top: 42px;
+	margin-bottom: 100px;
+	
+	}
