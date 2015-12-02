@@ -21,6 +21,10 @@ h1{
 	font-weight: 400;
 	line-height: 20px;
 }
+.about span{
+	display: block;
+	padding-bottom: 46px;
+}
 h2{
 	color: #504f50;
 	font-family: OpenSans;
@@ -44,7 +48,12 @@ section{
 	padding: 20px 40px;
 	text-decoration: none;
 }
-
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 /*---------------TOP SECTION-------*/
 header h1{
 	color: #39c9da;
@@ -117,31 +126,135 @@ nav ul li a{
 
 .wrapper-about-us{
 	background-color: #fafafa;
-
+	overflow: hidden;
+	padding-bottom: 48px;
 }
 .wrapper-about-us img{
 	float: left;
 	padding-top: 104px;
+	width: 48%;
+	margin-right: 4%;
 }
-.wrapper-about-us div{
+.wrapper-about-us div .text{
 	overflow: hidden;
-	padding-top: 46px;
+	width: 48%;
+}
+.wrapper-about-us h2{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	
+}
+.wrapper-about-us p{	
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.line{
+	width: 10%;
+	height: 2px;
+    background: #42ccdc; 
+    border: 0; 
+   overflow: hidden;
+   margin: 22px 0 29px 0;
+}
+.wrapper-about-us a .buttom{
+	margin: 0 0 37px 0;
 }
 
+/*------------------wrapper-portfolio------------------------------*/
+.wrapper-portfolio{
+	background-color: #f4f4f4;
+	padding-bottom: 60px;
+}
+.wrapper-portfolio ul{
+	overflow: hidden;
+}
+.wrapper-portfolio li{
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+	 
+}
+.wrapper-portfolio li img{
+	width: 100%;
+}
 
+.number-project{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.autor-project{
+	color: #aba7ab;
+	font-family: OpenSans;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.caption{
+	background-color: #fff;
+	overflow: hidden;
+	margin-bottom: 40px;
+	padding: 27px 22px 22px 11px;
+}
+.wrapper-portfolio li img hower{
+}
+/*--------------------Services-----------------------------*/
+.wrapper-service{
+	background-color: #fafafa;
+	overflow: hidden;
+	padding-bottom: 48px;
+}
+.carts{
+	width: 22%;
+	float: left;
+	border: 1px solid #e2e2e2;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+	overflow: hidden;
+	padding-bottom: 19px;
+}
 
+.wrapper-service i{
+	
+	color: #39c9da;
+	margin: 25px auto;
+	overflow: hidden;
+}
+.line2{
+	width: 74px;
+	height: 1px;
+	background-color: #c2c2c2;
+	margin: 14px auto 23px auto;
+	overflow: hidden;
+}
+.text-services{
+	padding: 0 20px 0 27px;
+	overflow: hidden;
+	margin-bottom: 28px;
+}
+.read-more{
 
+	background-color: #4b4a4b;
+	border-radius: 2px;
+	padding: 12px 40px;
+	text-decoration: none;
+		color: white;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
 /*-------------------------------------------------*/
 /*-------------------------------------------------*/
