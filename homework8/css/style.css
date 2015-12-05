@@ -302,5 +302,70 @@ nav ul li a{
 .wrapper-service article:hover .read-more{
 	background-color: white;
 }
+/*-----------------wrapper-contact-us--------------------------------*/
+.wrapper-contact-us{
+	background-color: #f4f4f4;
+	padding-bottom: 60px;
+}
+button{
+	width: 201px;
+	height: 55px;
+	background-color: #39c9da;
+	border-radius: 4px;
+	float: right;
+	margin-right: 10%;
+	}
+.wrapper-contact-us article{
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+}
+.wrapper-contact-us form{
+	width: 48%;
+	overflow: hidden;
+}
+.wrapper-contact-us input{
+	margin-bottom: 30px;
+	width: 40%;
+}
+.wrapper-contact-us input:first-child{
+	float: left;
+	width: 40%;
+	margin-right: 9%;
+}
+.subject{
+	width: 90%;
+	
+}
+.wrapper-contact-us textarea{
+	margin-bottom: 30px;
+	width: 90%;
+}
+
+.wrapper-contact-us h3{
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+.wrapper-contact-us p{	
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.adress{
+	color: #a8a8a8;
+	font-weight: 400;
+	display: block;
+}
 /*-------------------------------------------------*/
-/*-------------------------------------------------*/
+footer{
+	background-color: #39c9da;
+	padding-bottom: 15px;
+	padding-top: 20px;
+
+}
+footer span{
+	text-align: center;
+	display: block;
+}
