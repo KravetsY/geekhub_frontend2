@@ -12,8 +12,7 @@ h1{
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 62px;
-	
-	}
+		}
 .about{
 	text-align: center;
 	color: #a8a8a8;
@@ -167,7 +166,24 @@ nav ul li a{
 .wrapper-about-us a .buttom{
 	margin: 0 0 37px 0;
 }
-
+.text:last-child p{
+	margin-top: 20px;
+}
+.buttom-news{
+	background-color: #39c9da;
+	border-radius: 4px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 45px;
+	padding: 10px 20px;
+	text-decoration: none;
+	bottom: -252px;
+    position: absolute;
+    
+	
+}
 /*------------------wrapper-portfolio------------------------------*/
 .wrapper-portfolio{
 	background-color: #f4f4f4;
@@ -252,7 +268,8 @@ nav ul li a{
 	margin-left: 1%;
 	overflow: hidden;
 	padding-bottom: 19px;
-}
+	background-color: #fff;
+	}
 
 .wrapper-service i{
 	
@@ -284,6 +301,7 @@ nav ul li a{
 	font-weight: 400;
 	line-height: 20px;
 	overflow: hidden;
+	
 }
 /*---------------HOVER-----Services-----------------------------*/
 .wrapper-service article:hover div {
@@ -316,6 +334,7 @@ button{
 	border-radius: 4px;
 	float: right;
 	margin-right: 10%;
+	color: white;
 	}
 .wrapper-contact-us article{
 	width: 48%;
@@ -326,22 +345,38 @@ button{
 	width: 48%;
 	overflow: hidden;
 }
-.wrapper-contact-us input{
+.subject{
+	width: 92%;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border: 1px solid #e6e6e6;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	padding: 19px 0 18px 13px;
+}
+.input{
 	margin-bottom: 30px;
 	width: 40%;
+	border: 1px solid #e6e6e6;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	padding: 19px 0 18px 13px;
 }
-.wrapper-contact-us input:first-child{
+.first-input{
 	float: left;
-	width: 40%;
-	margin-right: 9%;
+ margin-right: 9%;
 }
-.subject{
-	width: 90%;
-	
-}
+
 .wrapper-contact-us textarea{
 	margin-bottom: 30px;
 	width: 90%;
+	
 }
 
 .wrapper-contact-us h3{
@@ -370,4 +405,5 @@ footer{
 footer span{
 	text-align: center;
 	display: block;
+	color: white;
 }
