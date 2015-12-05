@@ -11,6 +11,7 @@ h1{
 	line-height: 45px;
 	text-transform: uppercase;
 	text-align: center;
+	padding-top: 62px;
 	
 	}
 .about{
@@ -175,6 +176,7 @@ nav ul li a{
 .wrapper-portfolio ul{
 	overflow: hidden;
 }
+
 .wrapper-portfolio li{
 	float: left;
 	width: 30%;
