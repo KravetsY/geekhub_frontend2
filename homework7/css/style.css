@@ -1,3 +1,6 @@
+html{
+	font-size: 62.5%;
+}
 body {
   margin: 0;
 }
@@ -5,7 +8,7 @@ body {
 	background: #edeff1;
 	width: 2000px;
 	height: 150px;
-	
+	overflow: hidden;
 	position: fixed;   
 	z-index: 9999;
 }
@@ -30,9 +33,9 @@ div.logo h1{
 	height: 28px;
 	color: #31353e;
 	font-family: RobotoSlab;
-	font-size: 36px;
+	font-size: 3.6rem;
 	font-weight: 700;
-	line-height: 36px;
+	line-height: 3.6rem;
 
 
 }
@@ -41,9 +44,9 @@ div.logo h2{
 	height: 16px;
 	color: #dd4b2b;
 	font-family: RobotoSlab;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 3.6rem;
 }
 .logo{
 	padding-top: 49px;
@@ -66,9 +69,9 @@ margin-top: 68px;
 nav ul li a{
 height: 15px;
 font-family: RobotoSlab;
-font-size: 18px;
+font-size: 1.8rem;
 font-weight: 400;
-line-height: 24px;
+line-height: 2.4rem;
 text-decoration: none;
 color: #31353e;
 }
@@ -97,7 +100,7 @@ section.first-section div.header{
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	color: white;
 	font-family: RobotoSlab;
-	line-height: 48px;
+	line-height: 4.8rem;
 	padding-left: 573px;
 	padding-top: 486px;
 	background: none;
@@ -105,23 +108,23 @@ section.first-section div.header{
 
 }
 section.first-section h1{
-	font-size: 72px;
+	font-size: 7.2rem;
 	font-weight: 300;
 	overflow: hidden;
-	line-height: 48px;
+	line-height: 4.8rem;
 }
 section.first-section h2{
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
 	overflow: hidden;
-	line-height: 48px;
+	line-height: 4.8rem;
 	padding-left: 180px;
 }
 section.first-section h3{
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
 	text-align: center;
-	line-height: 48px;
+	line-height: 4.8rem;
 
 }
 section.first-section span{
@@ -129,9 +132,9 @@ section.first-section span{
 	height: 104px;
 	color: white;
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3rem;
 	text-align: center;
 }
 .button-first-section a{
@@ -142,10 +145,10 @@ section.first-section span{
 	height: 14px;
 	color: #612316;
 	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 30px;
-	line-height: 50px;
+	line-height: 3rem;
+	line-height: 5rem;
 }
 
 .news{
@@ -199,9 +202,9 @@ section.second-section div.header{
 	height: 23px;
 	color: #31353e;
 	font-family: RobotoSlab;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 2.4rem;
 	padding-top: 85px;
 	margin: 0 auto;
 
@@ -229,19 +232,19 @@ section.second-section div.header{
 	width: 288px;
 	height: 108px;
 	color: #31353e;
-	line-height: 30px;
+	line-height: 3rem;
 	text-align: center;
 	padding-top: 39px;
 	margin: 0 auto;
 }
 .text-news h2{
 	font-family: RobotoSlab;
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 700;
 }
 .text-news span{
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 }
 .second-section div .button{
@@ -264,9 +267,9 @@ section.second-section div.header{
 	height: 11px;
 	color: #4e5159;
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 51px;
+	line-height: 5.1rem;
 }
 /*--------------------------SECTION 3-----------*/
 .third-section{
@@ -282,9 +285,9 @@ section.second-section div.header{
 	height: 24px;
 	color: white;
 	font-family: RobotoSlab;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
-	line-height: 48px;
+	line-height: 4.8rem;
 	margin: 0 auto;
 	
 	padding-top: 90px;
@@ -295,9 +298,9 @@ section.second-section div.header{
 	height: 40px;
 	color: white;
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 24px;
+	line-height: 2.4rem;
 	margin: 0 auto;
 	overflow: hidden;
 	padding-top: 22px;
@@ -364,9 +367,9 @@ input{
 	height: 30px;
 	color: #191b29;
 	font-family: RobotoSlab;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
-	line-height: 48px;
+	line-height: 4.8rem;
 	margin-bottom: 23px;
 }
 .text-news-fourth-section span{
@@ -375,9 +378,9 @@ input{
 	
 	color: #191b29;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3rem;
 	margin-top: 23px;
 	display: block;
 }
@@ -397,9 +400,9 @@ input{
 	height: 18px;
 	color: white;
 	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 48px;
+	line-height: 4.8rem;
 	
 	overflow: hidden;
 	}
@@ -417,9 +420,9 @@ input{
 	
 	color: #191b29;
 	font-family: RobotoSlab;
-	font-size: 30px;
+	font-size: 3.0rem;
 	font-weight: 700;
-	line-height: 48px;
+	line-height: 4.8rem;
 	overflow: hidden;
 }
 .text-news-fourth-section-right span{
@@ -427,9 +430,9 @@ input{
 	
 	color: #191b29;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3rem;
 	display: block;
 	margin-top: 23px;
 }
@@ -450,9 +453,9 @@ input{
 	height: 18px;
 	color: white;
 	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 48px;
+	line-height: 4.8rem;
 	
 }
 
@@ -485,9 +488,9 @@ input{
 	text-decoration: none;
 	color: white;
 	font-family: Roboto;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 3.6rem;
 }
 
 /*--------------------------FOOTER-----------*/
@@ -510,8 +513,8 @@ footer article span{
 	display: block;
 	color: white;
 	font-family: ProximaNova;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
 }
 footer article span a{
 	text-decoration: none;
