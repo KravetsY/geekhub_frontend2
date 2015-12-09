@@ -7,8 +7,13 @@
 
 }
 @media screen and (max-width: 767px){
+	 
+	.wrapper {
+	 	height: 100%;
+		}
 	 .wrapper header {
 		position: static;
+	
 		}
 	 nav{
 		display: none;
@@ -194,7 +199,7 @@
 		height: 600px;
 	}
 	.categories ul a {
-		    font-size: 2.8rem;
+		font-size: 2.8rem;
 	}
 /*--------------------------FOOTER--------*/
 	footer {
@@ -212,8 +217,162 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+	html {
+		font-size: 75%;
+		}
+		.wrapper {
+	 	height: 100%;
+		}
+	.wrapper header {
+		position: static;
+		height: 200px;
+		}
+	 nav{
+		display: block;
+		padding: 0;
+		}
+	
+	.wrapper, .wrapper header, .first-section, 
+	.third-section, .categories, .news-second-section, .fourth-section, footer {
+		width: 100%;
+	}
+	div.logo h1 {
+	    font-size: 5.6rem;
+		}
+	div.logo h2{
+		width: 100%;
+	    font-size: 2.6rem;
+		line-height: 7.6rem;
+		}
+	.logo {
+		padding-top: 20px;
+		padding-left: 16px;
+		float: none;
+		display: block;
+	}
+	section.first-section div.header {
+		width: 100%;
+		padding: 10px;
+		
+		}
+	section.first-section h1 {
+			font-size: 5.2rem;
+			line-height: 6.8rem;
+		}
+	section.first-section h2 {
+		padding: 10px;
+	}
+	.news {
+		padding: 0;
+		height: 694px;
+		margin: 50px auto;
+		width: 90%;
+	}
+	.news3 { 
+		padding: 0;
+		}
+	.button-first-section a {
+		padding-left: 43px;
+	}
+	/*----------------------------OUR NEWS------------------------*/
+	.news-second-section1, .news-second-section2, .news-second-section3{
+		width: 50%;
+		padding: 0;
+	}
+	.second-section {
+		height: 1400px;
+	}
+	/*---------------------------third-section------*/
+	
+	.third-section {
+		background-image: url('../img/newsletter-footer-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0px 0px;
+		}
+	.header-third-section {
+		padding: 0;
+	}
+	.third-section article {
+		width: 90%;
+		font-size: 2rem;
+	}
+	input {
+		width: 70%;
+		padding: 0 0 0 20px;
+		margin: 10px 0 0 100px;
+	}
+	.desktop {
+		position: absolute;
+		top: 0;
+		right: 100px;
+		width: 136px;
+		margin: 10px 0;
+		}
+	form{
+		position: relative;
+		}
+	.fourth-section article {
+		width: 100%;
+		
+	}
+	.fourth-section img {
+		margin: 0 auto;
+		float: none;
+		display: block;
+		
+	}
+	.text-news-fourth-section {
+		width: 100%;
+		overflow: hidden;
+	}
+	.text-news-fourth-section h1, .text-news-fourth-section-right h1 {
+		width: 90%;
+		margin: 50px;
+	}
+	.text-news-fourth-section span, .text-news-fourth-section-right span {
+		width: 90%;
+		font-size: 2.6rem;
+		margin: 30px;
+	}
+	.button-fourth-section-orang, .button-fourth-section-blue {
+		margin: 0 auto;
+	}
+	/*----------------------CATEGORIES-----------------------*/
+	
+	.categories ul, .categories ul:first-child, .categories ul:last-child  {
+		float: none;
+		padding: 0;
+		margin: 0 auto;
+		width: 50%;
+	}
+	.categories article{
+		overflow: hidden;
+		padding: 30px 0 0 0;
+		margin: 0 auto;
+	}
+	.categories {
+		height: 900px;
+	}
+	.categories ul a {
+		font-size: 2.8rem;
+		
+	}
+	/*-------------------FOOTER------------------------------------*/
+		footer {
+	    background-image: url('../img/newsletter-footer-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0px 0px;
+		}
+	footer article span {
+		font-size: 2.8rem;
+		line-height: 4.4rem;
+		width: 95%;
+		margin: 0 auto;
+		}
+	
 }
-@media screen and (min-width: 1024px) and (max-width: 10255px) {
+@media screen and (min-width: 1024px) and (max-width: 1255px) {
 
 }

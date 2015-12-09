@@ -6,17 +6,18 @@ body {
 }
 .wrapper header{
 	background: #edeff1;
-	width: 2000px;
+	width: 100%;
 	height: 150px;
 	overflow: hidden;
 	position: fixed;   
 	z-index: 9999;
 }
 .wrapper{
-	width: 2000px;
+	width: 100%;
 	height: 4437px;
 	margin:0px auto;   
 	z-index:0;
+	overflow: hidden;
 	}
 .button-first-section{
 	width: 179px;
@@ -60,20 +61,20 @@ nav{
 }
 
 nav ul li{
-float: left;
-padding-left: 22px;
-padding-right: 22px;
-margin-top: 68px;
+	float: left;
+	padding-left: 22px;
+	padding-right: 22px;
+	margin-top: 68px;
 }
 
 nav ul li a{
-height: 15px;
-font-family: RobotoSlab;
-font-size: 1.8rem;
-font-weight: 400;
-line-height: 2.4rem;
-text-decoration: none;
-color: #31353e;
+	height: 15px;
+	font-family: RobotoSlab;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	text-decoration: none;
+	color: #31353e;
 }
 
 nav ul li.active{
@@ -84,13 +85,13 @@ nav ul li.active{
 /*--------------------------SECTION 1-----------*/
 .first-section{
 /* Style for "photo-14164530" */
-background-image: url('../img/background.png');
+	background-image: url('../img/background.png');
 
-width: 2000px;
-height: 1350px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 50% 100%; 
+	width: 100%;
+	height: 1350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 100%; 
 }
 
 
@@ -101,7 +102,7 @@ section.first-section div.header{
 	color: white;
 	font-family: RobotoSlab;
 	line-height: 4.8rem;
-	padding-left: 573px;
+	margin: 0 auto;
 	padding-top: 486px;
 	background: none;
 
@@ -111,7 +112,7 @@ section.first-section h1{
 	font-size: 7.2rem;
 	font-weight: 300;
 	overflow: hidden;
-	line-height: 4.8rem;
+	line-height: 8.8rem;
 }
 section.first-section h2{
 	font-size: 3.0rem;
@@ -152,38 +153,37 @@ section.first-section span{
 }
 
 .news{
-	width:1107px;
-	height: 333px;
+	width:1255px;
+	
 	overflow: hidden;
 	color: white;
 
-	margin-top: 122px;
-	padding-left: 450px;
+	
+	margin: 122px auto 0 auto;
 }
 .news img{
-	padding-left: 75px;
-	padding-right: 80px;
+	    margin: 0 auto;
+    display: block;
 }
 .news1{
 	float: left;
-	width: 303px;
-	height: 305px;
+	width: 30%;
+	
 	overflow: hidden;
 }
 .news2{
 	float: left;
-	width: 303px;
-	height: 333px;
+	width: 30%;
+	
 	overflow: hidden;
-	padding-left: 80px;
+	padding-left: 5%;
 	
 }
 .news3{
+	width: 30%;
 	
-	width: 303px;
-	height: 305px;
 	overflow: hidden;
-	padding-left: 75px;
+	padding-left: 5%;
 }
 
 /*--------------------------SECTION 2-----------*/
@@ -273,12 +273,12 @@ section.second-section div.header{
 }
 /*--------------------------SECTION 3-----------*/
 .third-section{
-	background-image: url('../img/background-section3.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 2000px;
-	height: 385px;
-	background-position: 0px -872px;
+	
+		background-image: url('../img/newsletter-footer-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0px 0px;
+		
 	}
 .header-third-section{
 	width: 154px;
@@ -295,7 +295,7 @@ section.second-section div.header{
 .third-section article{
 	
 	width: 533px;
-	height: 40px;
+	
 	color: white;
 	font-family: Roboto;
 	font-size: 1.5rem;
@@ -305,7 +305,13 @@ section.second-section div.header{
 	overflow: hidden;
 	padding-top: 22px;
 }
-
+form{
+	padding-bottom: 50px;
+}
+.subscribe{
+    margin: auto;
+    width: 768px;
+}
 input{
 	width: 509px;
 	height: 52px;
@@ -317,7 +323,7 @@ input{
 	margin-top: 43px;
 	/*padding-top: 19px;*/
 	padding-left: 36px;
-	margin-left: 747px;
+	/*margin-left: 747px;*/
 }
 .desktop{
 	width: 213px;
@@ -334,9 +340,11 @@ input{
 /*--------------------------SECTION 4-----------*/
 .fourth-section{
 	width: 1998px;
-	height: 1018px;
-	background-color: white;
-	padding-top: 65px;
+    /* height: 1018px; */
+    background-color: white;
+    padding-top: 65px;
+    overflow: hidden;
+    padding-bottom: 65px;
 }
 .fourth-section img{
 	width: 588px;
@@ -345,7 +353,7 @@ input{
 .fourth-section article{
 	overflow: hidden;
 	width: 1215px;
-	height: 407px;
+	/*height: 407px;*/
 	margin: 0 auto;
 	
 }
@@ -360,7 +368,7 @@ input{
 }
 .text-news-fourth-section{
 	width: 562px;
-	height: 190px;
+	/* height: 190px;*/
 }
 .text-news-fourth-section h1{
 	width: 293px;
@@ -409,7 +417,7 @@ input{
 	
 .second-article{
 	width: 1208x;
-	height: 407px;
+	
 }
 .text-news-fourth-section-right{
 	padding-left: 40px;
@@ -461,7 +469,7 @@ input{
 
 /*--------------------------SECTION 5-----------*/
 .categories{
-	width: 2000px;
+	width: 100%;
 	height: 412px;
 	background-color: #d75d0e;
 
@@ -495,16 +503,15 @@ input{
 
 /*--------------------------FOOTER-----------*/
 footer{
-	background-image: url('../img/footer.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 2000px;
-	height: 385px;
-	background-position: 0px -876px;
+	background-image: url('../img/newsletter-footer-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0px 0px;
 }
 footer article{
 	padding-top: 92px;
 	margin: 0 auto;
+	padding-bottom: 50px;
 	}
 footer article span{
 	font-weight: 300;
@@ -515,6 +522,7 @@ footer article span{
 	font-family: ProximaNova;
 	font-size: 1.8rem;
 	line-height: 2.4rem;
+	
 }
 footer article span a{
 	text-decoration: none;
