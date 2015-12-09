@@ -2,6 +2,9 @@
 	html {
     font-size: 45%;
 	}
+	input {
+	    width: 47%;
+		}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
 

@@ -10,7 +10,7 @@ body {
 	height: 150px;
 	overflow: hidden;
 	position: fixed;   
-	z-index: 9999;
+	z-index: 1;
 }
 .wrapper{
 	width: 100%;

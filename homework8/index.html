@@ -2,11 +2,22 @@
 <html>
 <head>
 	<title>Homework8</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<script src="/js/js.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+						$('.slide-trigger').collapsable();
+					});
+	</script>
+
 </head>
 <body>
 	<div class="wrapper">
@@ -22,6 +33,19 @@
 					<li><a href="#">CONTACT US</a></li>
 				</ul>
 				</nav>
+				
+			<!--	<h2 class="navheader collapse-trigger">Menu <span></span></h2>
+				<nav class="group">
+				  <h2 class="navheader slide-trigger">Menu <span></span></h2>
+				  <ul class="navigation group">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				  </ul>
+				</nav>
+				-->
 			</header>
 			<div class="top-slogan">
 				<span>THE ULTIMATE COLLECTION OF</span>
@@ -40,7 +64,7 @@
 				<img src="img/about_us.png" alt="About Us">
 				<div class="text">
 					<h2>Lorem ipsum dolor sit amet adipisicing elit.</h2>
-					<div class="line"></div>
+					
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
 					Ut wisi enim minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 					</p>
