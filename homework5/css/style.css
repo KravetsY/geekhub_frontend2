@@ -34,7 +34,11 @@ body{
 .sidebar-left{
 	width: 120px;
 	overflow: hidden;
-    	float: left;
+    float: left;
+}
+.sidebar-img{
+	width: 98%;
+	
 }
 .grey_block{
 	margin-top: 10px;
