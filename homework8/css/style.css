@@ -1,0 +1,468 @@
+
+html{
+	font-size: 62.5%;
+}
+body {
+	margin: 0;
+}
+.wrapper{
+	background-image: url('../img/top_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 62px;
+		}
+.about{
+	text-align: center;
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+.about span{
+	display: block;
+	padding-bottom: 46px;
+}
+h2{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 2rem;
+	text-transform: uppercase;
+}
+section{
+	max-width: 1170px;
+	margin: 0 auto;
+	}
+.buttom{
+	background-color: #39c9da;
+	border-radius: 4px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*---------------TOP SECTION-------*/
+
+header h1{
+	color: #39c9da;
+	font-family: OpenSans;
+	font-size: 3rem;
+	font-weight: 700;
+	
+	padding-top: 32px;
+	vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+}
+header span{
+	color: white;
+	font-family: Roboto;
+	font-size: 4.8rem;
+	font-weight: 400;
+	}
+nav{
+	float: right;
+    text-align: left;
+    display: inline-block;
+	padding-top: 54px;
+		}
+nav ul li{
+	float: left;
+
+	
+}
+nav ul li a{
+
+	color: white;
+	font-family: OpenSans;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0px 20px;
+	
+	text-decoration: none;
+	}
+.top-slogan{
+	margin-top: 212px;
+	overflow: hidden;
+	text-align: center;
+	
+}
+.top-slogan span{
+	display: block;
+	overflow: hidden;
+	color: white;
+	font-family: OpenSans;
+	font-size: 3.3rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+}
+.top-slogan a{
+	margin-top: 42px;
+	margin-bottom: 100px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	text-decoration: none;
+}
+.download {
+	margin-top: 42px;
+	margin-bottom: 100px;
+	}
+/*----------------------SECTION ABOUT US----*/
+
+.wrapper-about-us{
+	background-color: #fafafa;
+	overflow: hidden;
+	padding-bottom: 48px;
+}
+.wrapper-about-us img{
+	float: left;
+	padding-top: 104px;
+	width: 48%;
+	margin-right: 4%;
+}
+.wrapper-about-us div .text{
+	overflow: hidden;
+	width: 48%;
+}
+.wrapper-about-us h2{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 2rem;
+	text-transform: uppercase;
+	    position: relative;
+}
+.wrapper-about-us p{	
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+/*.line{
+	width: 10%;
+	height: 2px;
+    background: #42ccdc; 
+    border: 0; 
+   overflow: hidden;
+   margin: 22px 0 29px 0;
+}*/
+.wrapper-about-us a .buttom{
+	margin: 0 0 37px 0;
+}
+.text:last-child p{
+	margin-top: 50px;
+}
+.buttom-news{
+	background-color: #39c9da;
+	border-radius: 4px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	padding: 20px 40px;
+	text-decoration: none;
+	bottom: -252px;
+}
+
+.wrapper-about-us h2:after{
+		content: "";
+		width: 10%;
+		border-bottom: 2px solid #39c9da;
+		position: absolute;
+		top: 36px;
+		display:block;
+	}
+.text{
+	overflow: hidden;
+}
+/*------------------wrapper-portfolio------------------------------*/
+.wrapper-portfolio{
+	background-color: #f4f4f4;
+	padding-bottom: 60px;
+}
+.wrapper-portfolio ul{
+	overflow: hidden;
+}
+
+.wrapper-portfolio li{
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+	 
+}
+.wrapper-portfolio li img{
+	width: 100%;
+}
+
+.number-project{
+	color: #504f50;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 2rem;
+}
+.autor-project{
+	color: #aba7ab;
+	font-family: OpenSans;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+.caption{
+	background-color: #fff;
+	overflow: hidden;
+	margin-bottom: 40px;
+	padding: 27px 22px 22px 11px;
+}
+.wrapper-portfolio li img hower{
+}
+/*---------------HOVER-----wrapper-portfolio--------------------*/
+.img-read-more{
+	margin: 125px 90px;
+	opacity: 0;
+	position: absolute;
+	border: 1px solid white;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.caption-style-1 li:hover .img-read-more {
+	opacity: 1;
+	
+}
+.caption-style-1 li:hover figure{
+	opacity: 0.6;
+}
+.img-read-more a{
+	color: white;
+	font-family: OpenSans;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	text-decoration: none;
+	padding: 18px 32px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*--------------------Services-----------------------------*/
+.wrapper-service{
+	background-color: #fafafa;
+	overflow: hidden;
+	padding-bottom: 48px;
+}
+.carts{
+	width: 22%;
+	float: left;
+	border: 1px solid #e2e2e2;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+	overflow: hidden;
+	padding-bottom: 19px;
+	background-color: #fff;
+	}
+
+.wrapper-service i{
+	
+	color: #39c9da;
+	margin: 25px auto;
+	overflow: hidden;
+}
+.line2{
+	width: 74px;
+	height: 1px;
+	background-color: #c2c2c2;
+	margin: 14px auto 23px auto;
+	overflow: hidden;
+}
+.text-services{
+	padding: 0 20px 0 27px;
+	overflow: hidden;
+	margin-bottom: 28px;
+}
+.read-more{
+
+	background-color: #4b4a4b;
+	border-radius: 2px;
+	padding: 12px 40px;
+	text-decoration: none;
+	color: white;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 2rem;
+	overflow: hidden;
+	
+}
+/*---------------HOVER-----Services-----------------------------*/
+.wrapper-service article:hover div {
+	background-color: #39c9da;
+}
+.wrapper-service article:hover i{
+	color: white;
+}
+.wrapper-service article:hover span{
+	color: white;
+}
+.wrapper-service article:hover a{
+	color: black;
+}
+.wrapper-service article:hover h2{
+	color: white;
+}
+.wrapper-service article:hover .read-more{
+	background-color: white;
+}
+/*-----------------wrapper-contact-us--------------------------------*/
+.wrapper-contact-us{
+	background-color: #f4f4f4;
+	padding-bottom: 60px;
+}
+button{
+	width: 201px;
+	height: 55px;
+	background-color: #39c9da;
+	border-radius: 4px;
+	float: right;
+	margin-right: 10%;
+	color: white;
+	}
+.wrapper-contact-us article{
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+}
+.wrapper-contact-us form{
+	width: 48%;
+	overflow: hidden;
+}
+.subject{
+	width: 89%;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border: 1px solid #e6e6e6;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+	padding: 19px 0 18px 13px;
+}
+.input{
+	margin-bottom: 30px;
+	width: 40%;
+	border: 1px solid #e6e6e6;
+	color: #c9c9c9;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+	padding: 19px 0 18px 13px;
+}
+.first-input{
+	float: left;
+ margin-right: 6%;
+}
+
+.wrapper-contact-us textarea{
+	margin-bottom: 30px;
+	width: 90%;
+	
+}
+
+.wrapper-contact-us h3{
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+.wrapper-contact-us p{	
+	color: #a8a8a8;
+	font-family: OpenSans;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+.adress{
+	color: #a8a8a8;
+	font-weight: 400;
+	display: block;
+}
+/*-------------------------------------------------*/
+footer{
+	background-color: #39c9da;
+	padding-bottom: 15px;
+	padding-top: 20px;
+
+}
+footer span{
+	text-align: center;
+	display: block;
+	color: white;
+}
+/*--------------------MENU---------------------------*/
+	
+		/*.navigation {
+			  max-width: none;
+			  background: #000;
+			  padding: 0;
+			}
+
+			.navigation li {
+			  float: left;
+			}
+
+			.navigation li a {
+			  display: block;
+			  color: #fff;
+			  padding: 10px;
+			}
+
+			.navigation li a:hover {
+			  background: #0fcaf2;
+			}
+		.navheader { 
+			  font-size: 12px;
+			}
+
+			.slide-trigger {
+			  display: none; /* need this */
+			  border: 1px solid #CCCCCC;
+			  cursor: pointer;
+			  margin-left: 15px;
+			  margin-right: 15px;
+			}
+
+			.slide-trigger span {
+			  background-image: url("/a/i/dropdown-arrows.png");
+			  background-position: 0 -14px;
+			  display: block;
+			  float: right;
+			  margin-top: 3px;
+			  height: 14px;
+			  width: 32px;
+			}*/
