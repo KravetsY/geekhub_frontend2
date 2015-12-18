@@ -1,0 +1,490 @@
+header{
+	margin: 45px 0; 
+	overflow: hidden;
+}
+.wrapper-head{
+	background-color: #fff;
+}
+.wrapper-head a{
+	text-decoration: none;
+}
+.wrapper-head ul li {
+	display: inline;
+	padding: 0 20px;
+}
+.wrapper-head ul li a{
+	color: #635c73;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 44px;
+
+}
+header .logo{
+	text-transform: uppercase;
+}
+
+.batton{
+	background-color: #8d81ac;
+	border-radius: 19px;
+	text-align: center;
+	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 44px;
+}
+
+.small{
+	padding: 13px 30px;
+}
+.batton-id{
+	text-align: center;
+}
+nav{
+	text-align: right;
+}
+/*-------------------wrapper----------------------------*/
+.wrapper-hero{
+	background-image: url('../img/hero-wraper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.wrapper-hero h1{
+	color: white;
+	font-family: Montserrat;
+	font-size: 82px;
+	font-weight: 700;
+	line-height: 114px;
+	
+	overflow: hidden;
+	padding-top: 108px;
+}
+.wrapper-hero h2{
+	color: #8d81ac;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 58px;
+	
+	overflow: hidden;
+	padding-top: 18px;
+	}
+.wrapper-hero span{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	
+	overflow: hidden;
+	padding-top: 18px;
+	margin-bottom: 530px;
+	display: block;
+	}
+.wrapper-hero a{
+	background-color: #8d81ac;
+	margin-top: 528px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 20px;
+	
+	border-radius: 109px;
+	padding: 23px 66px;
+	
+	}
+/*.position{
+	position: relative;
+}
+.img-buttom{
+	position: absolute;
+}*/
+
+/*----------------------------------------------------*/
+
+#revolution{
+
+}
+
+.wrapper-revolution{
+	text-align: center;
+}
+
+.wrapper-revolution h1{
+	color: #635c73;
+	font-family: Montserrat;
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	}
+.text-after-button{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	
+	display: block;
+	margin: 41px auto 66px;
+} 
+
+.wrapper-revolution p{
+	opacity: 0.8;
+	color: #323232;
+	font-family: SourceSansPro;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	padding: 36px 0;
+}
+.wrapper-revolution ul{
+	margin-bottom: 70px;
+}
+.wrapper-revolution ul li{
+	display: inline;
+	padding: 0 20px;
+	
+}
+
+.wrapper-revolution ul li a{
+	text-decoration: none;
+	color: #323232;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;	
+	background-color: #f4f4f4;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px 0 0 3px;
+	padding: 3px 0px 3px 10px;
+}
+.wrapper-revolution ul li a span{
+	border-radius: 0 3px 3px 0;
+	border: 1px solid #d5d5d5;
+	padding: 3px 10px;
+	background-color: #fff;
+	margin-left: 10px;
+}
+
+/*-----------------------FEAUTURES----------------------------------------------*/
+#futures{
+	background-color: #f4f4f4;
+}
+.news {
+	padding: 10px;
+	margin-bottom: 24px;
+}
+.img img{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news img{
+	float: left;
+}
+
+.left-block h2{
+	color: #323232;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.left-block p{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	}
+.left-block {
+	margin-top: 102px;
+	}
+.example{
+	position: reletiv;
+}	
+.example h2{
+	color: #8d81ac;
+	font-family: Montserrat;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 84px 0 59px;
+	}
+.window{
+	position: absolute;
+	width: 705px;
+	height: 580px;
+	opacity: 0.95;
+	background-color: #2b2d2e;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0%, transparent 100%);
+	border-radius: 6px;
+	box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);		
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.example a{
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	color: white;
+	text-decoration: none;
+}
+.example a span{
+	color: #c7c7c7;
+}
+.example span{
+	color: #c7c7c7;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	}
+.ellipses{
+	margin: 24px 0 0 30px;
+}
+.name{
+	float: right;
+	margin: 24px 130px 0 0; 
+}
+.links{
+	margin: 87px 0 0 30px;
+	float: left;
+}
+.links a{
+	display: block;
+	padding-bottom: 30px;
+}
+.code{
+	margin-top: 44px;
+	
+	margin-left: 228px;
+}
+/*---------------------------------SOCIAL--------------------------------*/
+
+#social{
+	text-align: center;
+	margin: 150px auto 79px auto;
+	
+}
+.social-name img{
+	display: inline-block;
+    overflow: hidden;
+	padding-right: 20px;
+}
+
+.fio{
+	display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 18px;
+}
+.social-name-name{
+	overflow: hidden;
+		
+	color: #635c73;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+}
+.social-nik{
+	display: block;
+    color: #8d81ac;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	}
+#social p{
+	padding: 48px 0 25px;
+	font-family: SourceSansPro;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #333;
+}
+#social p span{
+	color: #8d81ac;
+}
+.time{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	
+}
+.social-list{
+	margin-top: 117px;
+
+}
+.social-button{
+	display: inline-block;
+	margin: 0 20px;
+}
+.social-button i{
+	text-align: left;
+}
+.social-button span{
+	display: block;
+}
+.social-list span{
+	padding-top: 25px;
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 32px;
+	}
+.git{
+	background-color: #f3f3f3;
+	border-radius: 4px;
+	padding: 16px 80px;
+
+	color: black;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	}
+.twit{
+	background-color: #26a6d1;
+	border-radius: 4px;
+	padding: 16px 80px;
+	
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	}
+.face{
+	background-color: #3b5998;
+	border-radius: 4px;
+	padding: 16px 80px;
+	
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+/*------------------------testimonials---------------------------------------------------------*/
+#testimonials {
+	background-image: url('../img/background-testimonials.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#testimonials h1, #fork-subscribe h1{
+	color: white;
+	font-family: Montserrat;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 100px 0 0;
+}
+#testimonials  .row div{
+	padding: 90px 0 0 0;
+}
+.row p{
+	text-align: center;
+	margin: 30px auto;
+	width: 70%;
+	color: white;
+	font-family: SourceSansPro;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+/*--------------------------------------------------------------------------------*/
+#fork-subscribe{
+	background-color: #4a3b4e;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.price-list h2{
+	overflow: hidden;
+	background-color: #675b6a;
+	padding: 33px 0px;
+}
+.price-list{
+	margin: 100px auto 0 auto;
+}
+.price {
+	background-color: #645466;
+	padding: 0px 0 30px;		
+}
+
+
+.price h2{
+	color: white;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.price span{
+	display: block;
+}
+.cent{
+	height: 51px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 60px;
+	line-height: 90px;
+	text-transform: uppercase;
+	
+	margin: 36px auto 26px; 
+}
+.per_month{
+	opacity: 0.3;
+	color: white;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 90px;
+	text-transform: uppercase;
+	margin: 0px auto 74px; 
+	}
+.licens{
+	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	
+	width: 70%;
+	margin: 0px auto 67px; 
+	}
+
+.price a{
+	color: white;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	}
+.button{
+	border-radius: 19px;
+	background-color: #4fff;
+	opacity: 0.15;
+	padding: 16px 35px;
+}
+	
+
+	
