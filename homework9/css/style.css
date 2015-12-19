@@ -1,3 +1,6 @@
+body a{
+	text-decoration:none;
+}
 header{
 	margin: 45px 0; 
 	overflow: hidden;
@@ -97,12 +100,6 @@ nav{
 	padding: 23px 66px;
 	
 	}
-/*.position{
-	position: relative;
-}
-.img-buttom{
-	position: absolute;
-}*/
 
 /*----------------------------------------------------*/
 
@@ -393,7 +390,7 @@ nav{
 	line-height: 20px;
 	padding: 100px 0 0;
 }
-#testimonials  .row div{
+.padding{
 	padding: 90px 0 0 0;
 }
 .row p{
@@ -405,6 +402,10 @@ nav{
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
+}
+.img-height{
+	height: 50px;
+	margin: -90px 0 0 0 0;
 }
 /*-------------------------------fork-subscribe-------------------------------------------------*/
 #fork-subscribe{
@@ -424,7 +425,8 @@ nav{
 }
 .price {
 	background-color: #645466;
-	padding: 0px 0 30px;		
+	padding: 0px 0 30px;	
+	margin: 0 0 15px 0;
 }
 
 
@@ -466,6 +468,7 @@ nav{
 	font-weight: 400;
 	line-height: 32px;
 	
+	height: 50px;
 	width: 70%;
 	margin: 0px auto 67px; 
 	}
@@ -597,7 +600,7 @@ footer{
 	padding: 90px 0 0 0;
 }
 
-footer span, p{
+footer span, footer p{
 	color: #848e97;
 	font-family: Montserrat;
 	font-size: 14px;
