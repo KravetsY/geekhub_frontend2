@@ -406,7 +406,7 @@ nav{
 	font-weight: 700;
 	line-height: 24px;
 }
-/*--------------------------------------------------------------------------------*/
+/*-------------------------------fork-subscribe-------------------------------------------------*/
 #fork-subscribe{
 	background-color: #4a3b4e;
 	background-repeat: no-repeat;
@@ -481,10 +481,166 @@ nav{
 	}
 .button{
 	border-radius: 19px;
-	background-color: #4fff;
-	opacity: 0.15;
+	background-color: #776b79;
+	color: #fff;
+	
+	
 	padding: 16px 35px;
 }
+#fork-subscribe p{
+	overflow: hidden;
+	padding: 133px 0 77px;
+	opacity: 0.8;
+	color: #a291a5;
+	font-family: SourceSansPro;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+/*-----------------------fork-----------------------------------*/
+#subscribe{
+	overflow: hidden;
+	background-color: #f4f4f4;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 55px 0;
+}
+#subscribe h1{
+	color: #635c73;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 60px;
 	
+}
+#subscribe input{
+	width: 335px;
+	height: 42px;
+	background-color: white;
+	border-radius: 21px;
+	padding-left: 15px;
+}
+#subscribe button{
+	background-color: #8d81ac;
+	border-radius: 26px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 17px;
+	text-transform: uppercase;
+	padding: 13px 25px;
+	}
+	
+/*-------------------version------------------------------------*/
+#version {
+	padding: 55px 0 0 0;
+}
 
+#version h2{
+	color: #d3d1da;
+	font-family: Montserrat;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 32px;
+	padding-bottom: 58px;
+}
+#version h3{
+	color: #323232;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
 	
+}
+#version p{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+	width: 90%;
+	padding-top: 32px;
+	}
+#version span{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+	
+	
+}
+.botom-version{
+	
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	color: #8d81ac;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-decoration: none;
+	padding: 12px 20px;
+	margin: 55px;
+	}
+.botom-version-margin{
+	margin: 55px 0;
+}
+
+/*--------------------------FOOTER-----------*/
+footer{
+	padding: 90px 0 0 0;
+}
+
+footer span, p{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	width: 70%;
+}
+footer p{
+	width: 70%;
+}
+footer a{
+	display: block;
+	text-decoration: none;
+}
+footer li{
+	color: #8d81ac;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+}
+footer h2{
+	color: #323232;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	
+}
+.adress{
+	display: block;
+	color: #323232;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	padding: 38px 0 0 0;
+}
+.number{
+	color: #3f3f3f;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 28px;
+	display: block;
+}
