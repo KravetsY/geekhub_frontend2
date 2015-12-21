@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+	padding: 0;
+	}
+body a{
+	text-decoration:none;
+}
 header{
 	margin: 45px 0; 
 	overflow: hidden;
@@ -97,12 +104,6 @@ nav{
 	padding: 23px 66px;
 	
 	}
-/*.position{
-	position: relative;
-}
-.img-buttom{
-	position: absolute;
-}*/
 
 /*----------------------------------------------------*/
 
@@ -206,6 +207,8 @@ nav{
 	}
 .example{
 	position: reletiv;
+	
+	height: 100%;
 }	
 .example h2{
 	color: #8d81ac;
@@ -217,6 +220,7 @@ nav{
 	}
 .window{
 	position: absolute;
+	overflow: hidden;
 	width: 705px;
 	height: 580px;
 	opacity: 0.95;
@@ -383,6 +387,7 @@ nav{
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	background-color: #4b3b4e;
 }
 
 #testimonials h1, #fork-subscribe h1{
@@ -393,7 +398,7 @@ nav{
 	line-height: 20px;
 	padding: 100px 0 0;
 }
-#testimonials  .row div{
+.padding{
 	padding: 90px 0 0 0;
 }
 .row p{
@@ -406,12 +411,17 @@ nav{
 	font-weight: 700;
 	line-height: 24px;
 }
+.img-height{
+	height: 50px;
+	margin: -90px 0 0 0 0;
+}
 /*-------------------------------fork-subscribe-------------------------------------------------*/
 #fork-subscribe{
-	background-color: #4a3b4e;
+	background-image: url('../img/fork-subs-background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	background-color: #4b3b4e;
 }
 
 .price-list h2{
@@ -423,11 +433,18 @@ nav{
 	margin: 100px auto 0 auto;
 }
 .price {
-	background-color: #645466;
-	padding: 0px 0 30px;		
+	 background-color: rgba(255, 255, 255, 0.11);
+	padding: 0px 0 30px;	
+	margin: 0 0 15px 0;
+	color: white;
 }
-
-
+.price-list  article:hover div .price {
+	background-color: rgba(0, 0, 0, 0.16);
+	padding: 0px 10px 30px;
+}
+.price-list article:hover .price {
+	background-color: #39c9da;
+}
 .price h2{
 	color: white;
 	font-family: Montserrat;
@@ -466,6 +483,7 @@ nav{
 	font-weight: 400;
 	line-height: 32px;
 	
+	height: 50px;
 	width: 70%;
 	margin: 0px auto 67px; 
 	}
@@ -597,7 +615,7 @@ footer{
 	padding: 90px 0 0 0;
 }
 
-footer span, p{
+footer span, footer p{
 	color: #848e97;
 	font-family: Montserrat;
 	font-size: 14px;
