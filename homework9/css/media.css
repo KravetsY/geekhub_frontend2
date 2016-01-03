@@ -2,10 +2,14 @@
 	html {
     font-size: 45%;
 	}
-	
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
-
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
 }
 @media screen and (max-width: 767px){
 	nav{
@@ -33,6 +37,15 @@
 	#subscribe input{
 		width: 82%;
 	}
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+	.wrapper-revolution h1 {
+		line-height: 5rem;
+	}
+	.botom-version {
+		margin: 0;
+	}
 	}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	html {
@@ -41,7 +54,12 @@
 			nav{
 		display: none;
 		}
-			
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+	.botom-version {
+		margin: 0;
+	}	
 
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -51,7 +69,15 @@
 	nav{
 		display: none;
 		}
-	
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+	.botom-version {
+		margin: 0;
+	}
+	.wrapper-revolution h1 {
+		line-height: 5rem;
+	}
 }
 @media screen and (min-width: 1201px){
 	.price-position{
