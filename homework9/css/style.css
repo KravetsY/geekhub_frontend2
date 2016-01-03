@@ -22,9 +22,9 @@ header{
 .wrapper-head ul li a{
 	color: #635c73;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 700;
-	line-height: 44px;
+	line-height: 4.4rem;
 
 }
 header .logo{
@@ -37,9 +37,9 @@ header .logo{
 	text-align: center;
 	color: white;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 700;
-	line-height: 44px;
+	line-height: 4.4rem;
 }
 
 .small{
@@ -55,15 +55,16 @@ nav{
 .wrapper-hero{
 	background-image: url('../img/hero-wraper.jpg');
 	background-repeat: no-repeat;
+		overflow: hidden;
 	background-size: cover;
 	text-align: center;
 }
 .wrapper-hero h1{
 	color: white;
 	font-family: Montserrat;
-	font-size: 82px;
+	font-size: 8.2rem;
 	font-weight: 700;
-	line-height: 114px;
+	line-height: 11.4rem;
 	
 	overflow: hidden;
 	padding-top: 108px;
@@ -71,9 +72,9 @@ nav{
 .wrapper-hero h2{
 	color: #8d81ac;
 	font-family: Lato;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 400;
-	line-height: 58px;
+	line-height: 5.8rem;
 	
 	overflow: hidden;
 	padding-top: 18px;
@@ -81,9 +82,9 @@ nav{
 .wrapper-hero span{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 2rem;
 	text-transform: uppercase;
 	
 	overflow: hidden;
@@ -91,25 +92,51 @@ nav{
 	margin-bottom: 530px;
 	display: block;
 	}
-.wrapper-hero a{
+/*.wrapper-hero a{
 	background-color: #8d81ac;
 	margin-top: 528px;
 	color: white;
 	font-family: Montserrat;
-	font-size: 21px;
+	font-size: 2.1rem;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 2rem;
 	
 	border-radius: 109px;
 	padding: 23px 66px;
 	
 	}
-
+.img-buttom{
+	    margin-bottom: -9px;
+	}
+/*.conteiner{
+	position: relativ;
+}
+.img-buttom{
+	position: absolute;
+	left: 40%;
+	bottom: -15px;
+}*/
 /*----------------------------------------------------*/
 
 #revolution{
 
 }
+.img-buttom{
+	    margin-top: -9px;
+	}
+.wrapper-revolution a{
+	background-color: #8d81ac;
+	
+	color: white;
+	font-family: Montserrat;
+	font-size: 2.1rem;
+	font-weight: 700;
+	line-height: 2rem;
+	
+	border-radius: 109px;
+	padding: 23px 66px;
+	
+	}
 
 .wrapper-revolution{
 	text-align: center;
@@ -118,17 +145,17 @@ nav{
 .wrapper-revolution h1{
 	color: #635c73;
 	font-family: Montserrat;
-	font-size: 54px;
+	font-size: 5.4rem;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 2rem;
 	text-transform: uppercase;
 	}
 .text-after-button{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 15px;
+	line-height: 1.5rem;
 	
 	display: block;
 	margin: 41px auto 66px;
@@ -138,9 +165,9 @@ nav{
 	opacity: 0.8;
 	color: #323232;
 	font-family: SourceSansPro;
-	font-size: 21px;
+	font-size: 2.1rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	padding: 36px 0;
 }
 .wrapper-revolution ul{
@@ -156,9 +183,9 @@ nav{
 	text-decoration: none;
 	color: #323232;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 21px;	
+	line-height: 2.1rem;	
 	background-color: #f4f4f4;
 	border: 1px solid #d5d5d5;
 	border-radius: 3px 0 0 3px;
@@ -191,16 +218,16 @@ nav{
 .left-block h2{
 	color: #323232;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 21px;
+	line-height: 2.1rem;
 }
 .left-block p{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 21px;
+	line-height: 2.1rem;
 	}
 .left-block {
 	margin-top: 102px;
@@ -213,13 +240,14 @@ nav{
 .example h2{
 	color: #8d81ac;
 	font-family: Montserrat;
-	font-size: 48px;
+	font-size: 4.8rem;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 2rem;
 	padding: 84px 0 59px;
 	}
 .window{
-	position: absolute;
+	margin-bottom: -150px;
+    position: relative;
 	overflow: hidden;
 	width: 705px;
 	height: 580px;
@@ -233,9 +261,9 @@ nav{
 	}
 .example a{
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 15px;
+	line-height: 1.5rem;
 	color: white;
 	text-decoration: none;
 }
@@ -245,9 +273,9 @@ nav{
 .example span{
 	color: #c7c7c7;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 15px;
+	line-height: 1.5rem;
 	}
 .ellipses{
 	margin: 24px 0 0 30px;
@@ -264,10 +292,11 @@ nav{
 	display: block;
 	padding-bottom: 30px;
 }
-.code{
-	margin-top: 44px;
-	
-	margin-left: 228px;
+
+.code img{
+	position: absolute;
+    bottom: 0;
+	right: 0;
 }
 /*---------------------------------SOCIAL--------------------------------*/
 
@@ -294,24 +323,24 @@ nav{
 		
 	color: #635c73;
 	font-family: Montserrat;
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 700;
-	line-height: 32px;
+	line-height: 3.2rem;
 }
 .social-nik{
 	display: block;
     color: #8d81ac;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	}
 #social p{
 	padding: 48px 0 25px;
 	font-family: SourceSansPro;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	color: #333;
 }
 #social p span{
@@ -320,9 +349,9 @@ nav{
 .time{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	
 }
 .social-list{
@@ -343,9 +372,9 @@ nav{
 	padding-top: 25px;
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	}
 .git{
 	background-color: #f3f3f3;
@@ -354,9 +383,9 @@ nav{
 
 	color: black;
 	font-family: Montserrat;
-	font-size: 21px;
+	font-size: 2.1rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	}
 .twit{
 	background-color: #26a6d1;
@@ -365,9 +394,9 @@ nav{
 	
 	color: white;
 	font-family: Montserrat;
-	font-size: 21px;
+	font-size: 2.1rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	}
 .face{
 	background-color: #3b5998;
@@ -376,9 +405,9 @@ nav{
 	
 	color: white;
 	font-family: Montserrat;
-	font-size: 21px;
+	font-size: 2.1rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 }
 
 /*------------------------testimonials---------------------------------------------------------*/
@@ -393,9 +422,9 @@ nav{
 #testimonials h1, #fork-subscribe h1{
 	color: white;
 	font-family: Montserrat;
-	font-size: 48px;
+	font-size: 4.8rem;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 2rem;
 	padding: 100px 0 0;
 }
 .padding{
@@ -407,9 +436,9 @@ nav{
 	width: 70%;
 	color: white;
 	font-family: SourceSansPro;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 2.4rem;
 }
 .img-height{
 	height: 50px;
@@ -424,6 +453,24 @@ nav{
 	background-color: #4b3b4e;
 }
 
+#fork-subscribe  .container .row div:hover{
+	transform: scale(1.1);
+	background-color: rgba(0, 0, 0, 0.16);
+    margin-left: 10px;
+    margin-right: 23px;
+}
+
+#fork-subscribe  .container .row div:hover,
+#fork-subscribe  .container .row div,
+#fork-subscribe  .container .row div:hover .price {
+	transition: 0.5s;
+}
+#fork-subscribe    .container .row {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 6vh;
+	}
 .price-list h2{
 	overflow: hidden;
 	background-color: #675b6a;
@@ -438,19 +485,13 @@ nav{
 	margin: 0 0 15px 0;
 	color: white;
 }
-.price-list  article:hover div .price {
-	background-color: rgba(0, 0, 0, 0.16);
-	padding: 0px 10px 30px;
-}
-.price-list article:hover .price {
-	background-color: #39c9da;
-}
+
 .price h2{
 	color: white;
 	font-family: Montserrat;
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 2rem;
 	text-transform: uppercase;
 }
 .price span{
@@ -460,8 +501,8 @@ nav{
 	height: 51px;
 	color: white;
 	font-family: Montserrat;
-	font-size: 60px;
-	line-height: 90px;
+	font-size: 6rem;
+	line-height: 9rem;
 	text-transform: uppercase;
 	
 	margin: 36px auto 26px; 
@@ -470,18 +511,18 @@ nav{
 	opacity: 0.3;
 	color: white;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 90px;
+	line-height: 9rem;
 	text-transform: uppercase;
 	margin: 0px auto 74px; 
 	}
 .licens{
 	color: white;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 3.2rem;
 	
 	height: 50px;
 	width: 70%;
@@ -492,9 +533,9 @@ nav{
 	color: white;
 	text-decoration: none;
 	font-family: Montserrat;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 2rem;
 	text-transform: uppercase;
 	}
 .button{
@@ -511,9 +552,9 @@ nav{
 	opacity: 0.8;
 	color: #a291a5;
 	font-family: SourceSansPro;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 21px;
+	line-height: 2.1rem;
 	width: 80%;
 	text-align: center;
 	margin: 0 auto;
@@ -530,9 +571,9 @@ nav{
 #subscribe h1{
 	color: #635c73;
 	font-family: Montserrat;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	line-height: 60px;
+	line-height: 6rem;
 	
 }
 #subscribe input{
@@ -547,9 +588,9 @@ nav{
 	border-radius: 26px;
 	color: white;
 	font-family: Montserrat;
-	font-size: 13px;
+	font-size: 1.3rem;
 	font-weight: 400;
-	line-height: 17px;
+	line-height: 1.7rem;
 	text-transform: uppercase;
 	padding: 13px 25px;
 	}
@@ -562,34 +603,34 @@ nav{
 #version h2{
 	color: #d3d1da;
 	font-family: Montserrat;
-	font-size: 28px;
+	font-size: 2.8rem;
 	font-weight: 700;
-	line-height: 32px;
+	line-height: 3.2rem;
 	padding-bottom: 58px;
 }
 #version h3{
 	color: #323232;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 26px;
+	line-height: 2.6rem;
 	
 }
 #version p{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 13px;
+	font-size: 1.3rem;
 	font-weight: 400;
-	line-height: 21px;
+	line-height: 2.1rem;
 	width: 90%;
 	padding-top: 32px;
 	}
 #version span{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 13px;
+	font-size: 1.3rem;
 	font-weight: 400;
-	line-height: 21px;
+	line-height: 2.1rem;
 	
 	
 }
@@ -599,9 +640,9 @@ nav{
 	border-radius: 4px;
 	color: #8d81ac;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 26px;
+	line-height: 2.6rem;
 	text-decoration: none;
 	padding: 12px 20px;
 	margin: 55px;
@@ -618,9 +659,9 @@ footer{
 footer span, footer p{
 	color: #848e97;
 	font-family: Montserrat;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 23px;
+	line-height: 2.3rem;
 	width: 70%;
 }
 footer p{
@@ -633,32 +674,32 @@ footer a{
 footer li{
 	color: #8d81ac;
 	font-family: Montserrat;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 400;
-	line-height: 23px;
+	line-height: 2.3rem;
 }
 footer h2{
 	color: #323232;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 28px;
+	line-height: 2.8rem;
 	
 }
 .adress{
 	display: block;
 	color: #323232;
 	font-family: Montserrat;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 28px;
+	line-height: 2.8rem;
 	padding: 38px 0 0 0;
 }
 .number{
 	color: #3f3f3f;
 	font-family: Montserrat;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	line-height: 28px;
+	line-height: 2.8rem;
 	display: block;
 }
