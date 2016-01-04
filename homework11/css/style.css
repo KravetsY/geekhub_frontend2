@@ -1,4 +1,11 @@
 html {
   font-size: 62.5%; }
+  html a {
+    text-decoration: none; }
+
+header ul {
+  list-style: none; }
+header li {
+  display: inline; }
 
 /*# sourceMappingURL=style.css.map */
