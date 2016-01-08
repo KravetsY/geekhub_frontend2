@@ -358,44 +358,144 @@ header nav {
     line-height: 40px;
     display: block; }
 
-.news-arhives .list-litle-news {
-  background-color: #f3f3f3;
-  padding: 130px 0 120px; }
-  .news-arhives .list-litle-news .litle-news {
-    background-color: white;
-    border: 1px solid #e5e4e4;
-    border-radius: 4px; }
-    .news-arhives .list-litle-news .litle-news .image-news {
-      float: left;
-      width: 30%; }
-    .news-arhives .list-litle-news .litle-news .date {
-      color: #999;
-      font-size: 11px;
-      font-weight: 400;
-      padding: 0 0 0 10px; }
-    .news-arhives .list-litle-news .litle-news h2 {
-      overflow: hidden;
-      display: block;
-      color: #666;
+.news-arhives {
+  text-align: center; }
+  .news-arhives .list-litle-news {
+    background-color: #f3f3f3;
+    padding: 130px 0 120px;
+    overflow: hidden;
+    text-align: left;
+    position: relative; }
+    .news-arhives .list-litle-news .botton {
+      color: white;
       font-size: 16px;
       font-weight: 700;
-      padding: 0 0 0 10px; }
-    .news-arhives .list-litle-news .litle-news p {
+      line-height: 20px;
+      padding: 12px 36px;
+      background-color: #fc3;
+      text-align: center;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 20px;
+      left: 44%; }
+    .news-arhives .list-litle-news .news-footer {
+      background-color: white;
+      margin: 0 0 21px 0;
+      border: 1px solid #e5e4e4;
+      border-radius: 4px;
+      padding: 10px; }
+      .news-arhives .list-litle-news .news-footer .bread {
+        color: #fc3;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 10px; }
+      .news-arhives .list-litle-news .news-footer .like-position {
+        display: inline;
+        float: right;
+        text-align: right;
+        padding: 0 6px;
+        background-color: #f4f4f4;
+        border-radius: 4px; }
+    .news-arhives .list-litle-news .litle-news {
+      background-color: white;
+      border: 1px solid #e5e4e4;
+      border-radius: 4px;
+      border-bottom: 1px solid #e5e4e4; }
+      .news-arhives .list-litle-news .litle-news .image-news {
+        float: left;
+        width: 35%;
+        padding: 20px; }
+      .news-arhives .list-litle-news .litle-news .date {
+        color: #999;
+        font-size: 11px;
+        font-weight: 400;
+        padding: 0 0 0 10px; }
+      .news-arhives .list-litle-news .litle-news h2 {
+        color: #666;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0 10px 0 30px; }
+      .news-arhives .list-litle-news .litle-news p {
+        display: block;
+        color: #999;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 0 10px 0 30px; }
+
+.contact {
+  text-align: center; }
+  .contact .contact-stiker {
+    margin: 80px 0 0 0; }
+    .contact .contact-stiker img {
+      margin: 0 auto;
+      display: block; }
+    .contact .contact-stiker span {
       display: block;
-      color: #999;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 22px;
-      padding: 0 0 0 10px; }
-    .news-arhives .list-litle-news .litle-news .bread {
-      color: #fc3;
-      font-size: 13px;
-      font-weight: 400; }
-    .news-arhives .list-litle-news .litle-news .like-position {
+      margin: 24px 0 0 0;
+      color: #666;
+      font-size: 18px;
+      font-weight: 700; }
+  .contact .form {
+    display: block;
+    padding: 0 0 163px 0; }
+    .contact .form input {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      display: block;
+      width: 100%;
+      margin: 0 0 10px;
+      padding-left: 10px; }
+    .contact .form textarea {
+      display: block;
+      width: 100%;
+      height: 240px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding-left: 10px; }
+
+.team {
+  text-align: center; }
+  .team .profile .name {
+    margin: 20px 0 0 0;
+    display: block;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400; }
+  .team .profile .work {
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 19px 0 25px;
+    display: block; }
+  .team .profile .visible {
+    position: relative; }
+    .team .profile .visible:hover {
+      transition: 0.5s; }
+      .team .profile .visible:hover .invisible {
+        opacity: 0.8;
+        background-color: black; }
+    .team .profile .visible .invisible {
+      opacity: 0;
+      position: absolute;
+      bottom: 0px; }
+  .team .profile .social-profile a {
+    padding: 17px 13px 10px;
+    background-color: #fc3;
+    color: white; }
+
+footer {
+  background-color: #fc3;
+  padding: 55px 0 45px; }
+  footer ul {
+    list-style: none;
+    float: right; }
+    footer ul li {
       display: inline;
-      float: right;
-      padding: 6px;
-      background-color: #f4f4f4;
-      border-radius: 4px; }
+      color: white;
+      padding: 0 5px; }
 
 /*# sourceMappingURL=style.css.map */
