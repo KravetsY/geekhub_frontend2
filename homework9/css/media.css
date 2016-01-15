@@ -1,0 +1,89 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	html {
+    font-size: 45%;
+	}
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+}
+@media screen and (max-width: 767px){
+	nav{
+		display: none;
+	}
+	.wrapper-hero a{
+	    font-size: 16px;
+		padding: 16px 35px;
+	}
+	.wrapper-revolution h1{
+		font-size: 29px;
+		    line-height: 26px;
+	 }
+	.wrapper-revolution ul li{
+		display: block;
+		margin-top: 10px;
+	}
+	.example h2{
+	    line-height: 38px;
+	}
+	.window{
+		width: 100%;
+		overflow: hidden;
+	}
+	#subscribe input{
+		width: 82%;
+	}
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+	.wrapper-revolution h1 {
+		line-height: 5rem;
+	}
+	.botom-version {
+		margin: 0;
+	}
+	}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	html {
+			font-size: 95%;
+			}
+			nav{
+		display: none;
+		}
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+	.botom-version {
+		margin: 0;
+	}	
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+		html {
+			font-size: 95%;
+			}
+	nav{
+		display: none;
+		}
+	#testimonials h1, #fork-subscribe h1 {
+		    line-height: 5rem;
+	}
+	.botom-version {
+		margin: 0;
+	}
+	.wrapper-revolution h1 {
+		line-height: 5rem;
+	}
+}
+@media screen and (min-width: 1201px){
+	.price-position{
+		float: left;
+		background-color: rgba(255, 255, 255, 0.11);
+		width: 22%;
+		padding: 0 0 35px;
+	}
+}
