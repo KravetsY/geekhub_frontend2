@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="cache-control" content="no-cache">
+	
+	<title>Slides, A Slideshow Plugin for jQuery</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+	<script src="js/slides.js"></script>
+	<script>
+		$(function(){
+			$("#slides").slides({
+				responsive: true
+			});
+		});
+	</script>
+
+
+</head>
+<body>
+	
+	<div id="container">
+		
+		<p>Scale the browser window, good times.</p>
+		
+		<div id="slides">
+			<img src="img/slide1.jpg" width="100%" alt="Slide 1">
+			
+			<img src="img/slide2.jpg" width="100%" alt="Slide 2">
+
+			<img src="img/slide3.jpg" width="100%" alt="Slide 3">
+
+			<img src="img/slide1.jpg" width="100%" alt="Slide 4">
+
+			<img src="img/slide2.jpg" width="100%" alt="Slide 5">
+
+			<img src="img/slide3.jpg" width="100%" alt="Slide 6">
+
+			<img src="img/slide1.jpg" width="100%" alt="Slide 7">
+		</div>
+	</div>
+	
+</body>
+</html>
