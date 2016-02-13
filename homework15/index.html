@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Forms</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=windows-1251">
 	
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
