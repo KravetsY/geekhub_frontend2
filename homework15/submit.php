@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Forms</title>
-	<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
@@ -20,7 +20,7 @@ if (!empty($f_name) && !empty($l_name) && !empty($email) && !empty($radio) && !e
 	$email_validate = filter_var($email, FILTER_VALIDATE_EMAIL); 
 
 		  function translit($str) {
-		    $rus = array('А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ъ', 'Ы', 'Ь', 'Э', 'Ю', 'Я', 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я', 'і');
+		    $rus = array('Рђ', 'Р‘', 'Р’', 'Р“', 'Р”', 'Р•', 'РЃ', 'Р–', 'Р—', 'Р', 'Р™', 'Рљ', 'Р›', 'Рњ', 'Рќ', 'Рћ', 'Рџ', 'Р ', 'РЎ', 'Рў', 'РЈ', 'Р¤', 'РҐ', 'Р¦', 'Р§', 'РЁ', 'Р©', 'РЄ', 'Р«', 'Р¬', 'Р­', 'Р®', 'РЇ', 'Р°', 'Р±', 'РІ', 'Рі', 'Рґ', 'Рµ', 'С‘', 'Р¶', 'Р·', 'Рё', 'Р№', 'Рє', 'Р»', 'Рј', 'РЅ', 'Рѕ', 'Рї', 'СЂ', 'СЃ', 'С‚', 'Сѓ', 'С„', 'С…', 'С†', 'С‡', 'С€', 'С‰', 'СЉ', 'С‹', 'СЊ', 'СЌ', 'СЋ', 'СЏ', 'С–');
 		    $lat = array('A', 'B', 'V', 'G', 'D', 'E', 'E', 'Gh', 'Z', 'I', 'Y', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'F', 'H', 'C', 'Ch', 'Sh', 'Sch', 'Y', 'Y', 'Y', 'E', 'Yu', 'Ya', 'a', 'b', 'v', 'g', 'd', 'e', 'e', 'gh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'f', 'h', 'c', 'ch', 'sh', 'sch', 'y', 'y', 'y', 'e', 'yu', 'ya', 'i');
 		    return str_replace($rus, $lat, $str);
 		  }
@@ -42,24 +42,24 @@ if (!empty($f_name) && !empty($l_name) && !empty($email) && !empty($radio) && !e
 	
 
 }	else{
-		echo "Не заполнены все поля";
+		echo "РќРµ Р·Р°РїРѕР»РЅРµРЅС‹ РІСЃРµ РїРѕР»СЏ";
 	}
 
 ?>
 <div>
 	<ul>
-		<li><span>Вы ввели:</span></li>
+		<li><span>Р’С‹ РІРІРµР»Рё:</span></li>
 		<li>
-			<span>Имя:	<?php echo $f_name ?></span>
+			<span>РРјСЏ:	<?php echo $f_name ?></span>
 		</li>
 		<li>
-			<span>Фамилия:	<?php echo $l_name ?></span>
+			<span>Р¤Р°РјРёР»РёСЏ:	<?php echo $l_name ?></span>
 		</li>
 		<li>
 			<span>email:	<?php echo $email ?></span>
 		</li>
 		<li>
-			<span>Дата рожжения:	<?php echo $date ?></span>
+			<span>Р”Р°С‚Р° СЂРѕР¶Р¶РµРЅРёСЏ:	<?php echo $date ?></span>
 		</li>
 
 
